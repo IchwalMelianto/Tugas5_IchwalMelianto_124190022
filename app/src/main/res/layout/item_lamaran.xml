@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/dark_blue">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@color/lowdark_bule">
+        <LinearLayout
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID : "
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="@color/skin"/>
+
+            <TextView
+                android:id="@+id/tv_item_id"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Id"
+                android:layout_marginLeft="15dp"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:textColor="@color/skin"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama : "
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="@color/skin"/>
+
+            <TextView
+                android:id="@+id/tv_item_nama"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:layout_marginLeft="15dp"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:textColor="@color/skin"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tempat Lahir : "
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/skin"/>
+
+            <TextView
+                android:id="@+id/tv_item_lahir"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lahir"
+                android:layout_marginLeft="15dp"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:textColor="@color/skin"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agama : "
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/skin"/>
+
+            <TextView
+                android:id="@+id/tv_item_agama"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agama"
+                android:layout_marginLeft="15dp"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:textColor="@color/skin"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nomor HP : "
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/skin"/>
+
+            <TextView
+                android:id="@+id/tv_item_hp"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lahir"
+                android:layout_marginLeft="15dp"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:textColor="@color/skin"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email : "
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/skin"/>
+
+            <TextView
+                android:id="@+id/tv_item_email"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:layout_marginLeft="15dp"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:textColor="@color/skin"
+                android:textColorHint="@color/skin" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

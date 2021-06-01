@@ -1,0 +1,2 @@
+rootProject.name = "Database Lokal"
+include ':app'
